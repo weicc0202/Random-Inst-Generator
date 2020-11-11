@@ -1,0 +1,36 @@
+//-----------------------------------------------------
+// Banned Function code instructions
+//-----------------------------------------------------
+6'b00_1101
+//6'b10_0001
+//6'b10_0000
+//6'b01_1010
+//6'b01_1011
+6'b00_1001
+6'b00_1000
+//6'b01_1000
+//6'b01_1001
+6'b00_1100
+6'b11_0100
+6'b11_0000
+6'b11_0001
+6'b11_0010
+6'b11_0011
+6'b11_0110
+
+//`define FUNCTION_OP_BREAK       6'b00_1101
+//`define FUNCTION_OP_CLO         6'b10_0001 #
+//`define FUNCTION_OP_CLZ         6'b10_0000 #
+//`define FUNCTION_OP_DIV         6'b01_1010 #
+//`define FUNCTION_OP_DIVU        6'b01_1011 #
+//`define FUNCTION_OP_JALR        6'b00_1001
+//`define FUNCTION_OP_JR          6'b00_1000
+//`define FUNCTION_OP_MULT        6'b01_1000 #
+//`define FUNCTION_OP_MULTU       6'b01_1001 #
+//`define FUNCTION_OP_SYSCALL     6'b00_1100
+//`define FUNCTION_OP_TEQ         6'b11_0100
+//`define FUNCTION_OP_TGE         6'b11_0000
+//`define FUNCTION_OP_TGEU        6'b11_0001
+//`define FUNCTION_OP_TLT         6'b11_0010
+//`define FUNCTION_OP_TLTU        6'b11_0011
+//`define FUNCTION_OP_TNE         6'b11_0110

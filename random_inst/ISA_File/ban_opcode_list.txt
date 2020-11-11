@@ -1,0 +1,26 @@
+//-----------------------------------------------------
+// Banned Opcode instructions
+//-----------------------------------------------------
+6'b00_0001
+6'b01_0000
+6'b01_0001
+6'b01_0010
+6'b01_0011
+//6'b00_0100
+6'b00_0111
+6'b00_0110
+//6'b00_0101
+//6'b00_0010
+6'b00_0011
+
+//`define OP_TYPE_REGIMM	6'b00_0001	// Branch/Trap
+//`define OP_TYPE_CP0   	6'b01_0000	// Coprocessor 0
+//`define OP_TYPE_CP1   	6'b01_0001	// Coprocessor 1
+//`define OP_TYPE_CP2   	6'b01_0010	// Coprocessor 2
+//`define OP_TYPE_CP3   	6'b01_0011	// Coprocessor 3
+//`define OP_BEQ            6'b00_0100 #
+//`define OP_BGTZ           6'b00_0111
+//`define OP_BLEZ           6'b00_0110
+//`define OP_BNE            6'b00_0101 #
+//`define OP_J              6'b00_0010 #
+//`define OP_JAL            6'b00_0011
